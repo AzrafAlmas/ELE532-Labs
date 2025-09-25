@@ -1,0 +1,21 @@
+
+
+%% ELE532 Lab 1 --> Part D
+%% By: Azraf Nure Almas
+
+close all;
+clear all;
+clc;
+
+%% Load in the matrices
+load("C:\Users\azraf\Downloads\ELE532_Lab1_Data.mat");
+
+% Compute through part a-->e and display them when it happens
+display("A");
+display(A(:)); % Transpose it first
+
+display("B");
+display( A([2 4 7]) ); % Then show those values of that index
+
+display( A >= 0.2 ); % Logical return where it checks if each index >= 0.2 if so return 1
+
